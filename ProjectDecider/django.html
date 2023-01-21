@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Decider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,200;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="subcpp">
+        <nav>
+            <a href="index.html"><img src="logo1.jpeg" alt="error"></a>
+            <div class="navlinks" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT-US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Top 7 Python Django Project Ideas</h1>
+    </section>
+
+    <section class="cpp">
+        <p>There is no better way to learn Django or any other framework than by working on some real-world projects. Projects are essential to make learning easy for us. These projects will help you gain real-world experience and make you job-ready. <br>Today, we are sharing some interesting Django project ideas to gain practical knowledge of the framework.
+        </p>
+        <!-- <img src="djangosub.png" alt=""> -->
+
+        <div class="cpptext">
+            
+            <h2> 1. Login System in Django</h2>
+            <em> Project Idea :</em><p>Implement a basic template of a login system and then you can use the template in any web app with just minimal changes to quickly build the web apps. Nowadays every website requires their customers to create accounts therefore this template will be very useful.<br></p>
+            <br><br>
+
+            <h2> 2. Text to HTML Generator</h2>
+            <em> Project Idea :</em><p>This is an interesting project in which you can build an interface from where you can specify the text and with just a button, it will generate an HTML web page with some stylings. This is useful for creating rapid online documentation of projects.<br></p>
+            <br><br>
+
+            <h2>3. Django Chat App</h2>
+            <em> Project Idea :</em><p>Create a simple chat app where you can create chat rooms and users will chat in real-time. You don’t need to store all the previous chat records as you can display only a few recent chats and older chats will be deleted.<br></p>
+            <br><br>
+
+            <h2>4. Todo App in Django</h2>
+            <em> Project Idea :</em><p>The project involves the building of a todo application. In a todo app, a user can keep track of all the things he/she is planning to do and create a list. They can then update the list when the task is completed. Build a nice app with basic Html, CSS, and JavaScript and host on the localhost server using Django or Flask framework.<br></p>
+            <br><br>
+            
+            <h2>5. Django Social Network App</h2>
+            <em> Project Idea :</em><p>The social network app is a platform for people to communicate with each other, make friends, and express their views through text, images, etc. We should also think about the security and privacy of the user’s data as they will use this app to have private conversations.<br></p>
+            <br><br>
+            
+            <h2>6. Django Pinterest clone</h2>
+            <em> Project Idea :</em><p>Build an amazing web app for users to showcase their artistic skills of photography, paintings, portraits, etc. The users can like posts and follow different artists to explore their latest posts from their feed.<br></p>
+            <br><br>
+            
+            <h2>7. Django Location-Based Web App</h2>
+            <em> Project Idea :</em><p>You can build a navigation and mapping app which uses a map to measure the distance between two places and you can display the shortest distance to travel. A navigation system is useful for product delivery apps, they can also show routes to various stores near the customer.<br></p>
+            <br><br>
+        </div>
+    </section>
+    
+    
+    <!-- footer -->
+    <section class="footer">
+        <div class="icons">
+            <a href="facebook.com"><i class="fa fa-facebook"></i></a>
+            <a href="twitter.com"><i class="fa fa-twitter"></i></a> 
+            <a href="instagram.com"><i class="fa fa-instagram"></i></a>
+            <a href="linkedin.com"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <div class="outerfooter">
+            Copyright &copy; Project Decider. All Rights Reserved
+        </div>
+        <!-- <p>Made With <i class="fa fa-heart-o"> by Gaurav Prajapat</i></p> -->
+    </section>
+    <!-- javascript for toggle menu -->
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Decider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo1.jpeg" alt="error"></a>
+            <div class="navlinks" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT-US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="textbox">
+            <h1>Project Decider</h1>
+            <p>We, here at ProjectDecider, believe in a practical approach as theoretical knowledge alone won’t be of help in a real-time work environment, <br>the best thing you can do is work on some real-time computer science project ideas.</p>
+            <a href="project.html" class="herobtn">Search Project Ideas</a>
+        </div>
+    </section>
+
+    <!-- project -->
+    <section class="project">
+        <h1>Projects We Offer</h1>
+        <p>Find interesting projects for CSE and get started with an execution plan</p>
+        <div class="row">
+            <div class="projectcol">
+                <a href="python.html" style="text-decoration: none;">
+                    <h3 style="text-decoration:underline;">PYTHON</h3>
+                    <p>Python has become one of the most popular languages. So getting only the theoretical knowledge will be of no use unless and until you don’t work on some real-time projects.</p>
+                </a>
+            </div>
+            <div class="projectcol">
+                <a href="django.html"  style="text-decoration: none;">
+                    <h3 style="text-decoration:underline;">DJANGO</h3>
+                    <p>There is no better way to learn Django or any other framework than by working on some real-world projects. Projects are essential to make learning easy for us.</p>
+                </a>
+            </div>
+            <div class="projectcol">
+                <a href="java.html"  style="text-decoration: none;">
+                    <h3 style="text-decoration:underline;">JAVA</h3>
+                    <p>If we particularly talk about JAVA, the language has a lot more to explore when it comes to building projects.JAVA follows the WORA (Write Once Run Anywhere) concept.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- campus -->
+    <section class="campus">
+        <h1>Our Major Projects</h1>
+
+        <div class="row">
+            <div class="campuscol">
+                <a href="ml.html">
+                    <img src="ml.jpg" alt="">
+                    <div class="layer">
+                        <h3></h3>
+                    </div>
+                </a>
+            </div>
+            <div class="campuscol">
+                <a href="ai.html">
+                    <img src="ai.jpg" alt="">
+                    <div class="layer">
+                        <h3></h3>
+                    </div>
+                </a>
+            </div>
+            <div class="campuscol">
+                <a href="web.html">
+                    <img src="web.jpg" alt="">
+                    <div class="layer">
+                        <h3></h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>All of our projects come with career services that will equip you to use your learnings and skills to ace your next interview or excel in your current role.</p>
+        <div class="row">
+            <div class="facilitycol">
+                <img src="pr.webp" alt="" class="pr">
+                <h3>Profile Readiness</h3>
+                <p>
+                    <ul type="disc">
+                        <li>Resume & LinkedIn Profile Review</li>
+                        <li>Tips & Hacks to get noticed by Recruiters</li>
+                        <li>Playbook on how best to apply to companies</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="facilitycol">
+                <img src="cpc.webp" alt="">
+                <h3>Career Planning & Coaching</h3>
+                <ul type="disc">
+                    <li>S.M.A.R.T goal setting</li>
+                     <li>Personalised career planning</li>
+                     <li>Group office hours with career coaches</li>
+                </ul>
+            </div>
+            <div class="facilitycol">
+                <img src="rp.webp" alt="">
+                <h3>Referrals & Placement Guarantee</h3>
+                <ul type="disc">
+                    <li>Assured referrals to exciting dev roles</li>
+                    <li>Guaranteed placement within <br>
+                        6 months of program completion</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonial">
+        <h1>Testimonials</h1>
+        <p>Words that keep us going, Drop your testimonial here</p>
+        <div class="row">
+            <div class="testimonialcol">
+                <img src="gaurav.jpg" alt="">
+                <div>
+                    <p>Hello, I have been practicing projects on this site for the last 2 years and recently I got placed at Google. Really loved the breadth of concepts and topics available on this site.</p>
+                    <h3>Gaurav Prajapat</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonialcol">
+                <img src="user2.jpg" alt="">
+                <div>
+                    <p>I just want to say “Thank you for create ProjectDecider”. My life change when I was accepted first in Amazon (2019) and then in Google( 2020), and it was possible studying everything from the page, thanks a lot, best regards:)</p>
+                    <h3>Amaan Ahmad</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Call to action -->
+    <section class="cta">
+        <h1>Enroll for various online projects</h1>
+        <a href="contact.html" class="herobtn">CONTACT US </a>
+    </section>
+    
+    <!-- footer -->
+    <section class="footer">
+        <div class="icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> 
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <div class="outerfooter">
+            Copyright &copy; Project Decider. All Rights Reserved
+        </div>
+        <!-- <p>Made With <i class="fa fa-heart-o"> by Gaurav Prajapat</i></p> -->
+    </section>
+    <!-- javascript for toggle menu -->
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

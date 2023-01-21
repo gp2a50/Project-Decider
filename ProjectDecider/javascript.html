@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Decider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,200;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="subjavascript">
+        <nav>
+            <a href="index.html"><img src="logo1.jpeg" alt="error"></a>
+            <div class="navlinks" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT-US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Top 5 JavaScript Projects For Beginners</h1>
+    </section>
+
+    <section class="javascript">
+        <p>JavaScript, which is also known as JS, is an object-oriented programming language and is best known as the scripting language for Web pages. It was originally created to make web pages alive. JavaScript is a high-level programming language. It is very lightweight and is commonly used as a part of websites, whose implementations allow client-side script to interact with the user and make dynamic pages. Its basic Syntax is similar to both Java and C++. We can update Html and CSS with JavaScript, and It has no link with Java Language. <br>
+
+            JavaScript is easy to learn and is also very powerful. After many years of improvement, It has become one of the popular Programming Languages in the world. The purpose of this article is to cover one of the best JavaScript Projects from beginner level to advanced and improve your JavaScript skills.
+        </p>
+        <!-- <img src="javascriptsub.png" alt=""> -->
+
+        <div class="javascripttext">
+            
+            <h2> 1. Design Digital Clock using JavaScript</h2>
+            <em> Project Idea :</em><p>Building a JavaScript Clock is very easy, and you will get a good idea about variables and if loops. Clocks can be used in sites where time is the main concern. Clocks are a useful element for any UI if used properly. Clocks can be used in sites where time is the main concern like some booking sites or some app showing arriving times of train, buses, flights, etc. You can make two types of clock analog and digital. Currently, we are focusing on a digital clock. By using CSS you can make your clock look very good.<br></p>
+            
+            <em> Source Code :</em> <a href="https://www.geeksforgeeks.org/how-to-design-digital-clock-using-javascript/">   Digital Clock</a><br><br>
+
+            <h2> 2. JavaScript Calculator</h2>
+            <em> Project Idea :</em><p>Programming a simple JavaScript calculator will help you to build up your JavaScript skills. You can make a few buttons for:   <br>
+                -> Additions <br>
+                -> Subtractions <br>
+                -> Multiplications <br>
+                -> Divisions
+                 <br></p>
+            
+            <em>Source Code : </em> <a href="https://www.geeksforgeeks.org/html-calculator/">  Calculator</a><br><br>
+
+            <h2>3. JavaScript Project on Todo List</h2>
+            <em> Project Idea :</em><p>You can make a JavaScript to-do list where users can add, edit, delete, and move items. You can make it with pure JavaScript and basic HTML and CSS. You can add basic functionality to it like write tasks and delete tasks.                <br></p>
+            
+            <em>Source Code :</em> <a href="https://www.geeksforgeeks.org/javascript-project-on-todo-list/">To Do List</a><br><br>
+
+            <h2>4. Create a Mobile Toggle Navigation Menu</h2>
+            <em> Project Idea :</em><p>To create a JavaScript Toggle Navigation Menu you need HTML, CSS, and JavaScript.The user will click on a button and a menu will pop up on his screen with options like:  <br>
+
+                -> Home <br>
+                -> About <br>
+                -> Services <br>
+                -> Contact<br></p>
+            
+            <em>Source Code :</em> <a href="https://www.geeksforgeeks.org/create-a-mobile-toggle-navigation-menu-using-html-css-and-javascript/">Toggle Navigation Menu</a><br><br>
+            
+            <h2>5. Simple Tic-Tac-Toe Game using JavaScript</h2>
+            <em> Project Idea :</em><p>It is quite easy to develop with some simple validations and error checks. Player-1 starts playing the game and both the players make their moves in consecutive turns. The player who makes a straight 3-block chain wins the game. This game is built on the front-end using simple logic and validation checks only.<br></p>
+            
+            <em>Source Code :</em> <a href="https://www.geeksforgeeks.org/simple-tic-tac-toe-game-using-javascript/">Tic-Tac-Toe</a><br><br>
+        </div>
+    </section>
+    
+    
+    <!-- footer -->
+    <section class="footer">
+        <div class="icons">
+            <a href="facebook.com"><i class="fa fa-facebook"></i></a>
+            <a href="twitter.com"><i class="fa fa-twitter"></i></a> 
+            <a href="instagram.com"><i class="fa fa-instagram"></i></a>
+            <a href="linkedin.com"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <div class="outerfooter">
+            Copyright &copy; Project Decider. All Rights Reserved
+        </div>
+        <!-- <p>Made With <i class="fa fa-heart-o"> by Gaurav Prajapat</i></p> -->
+    </section>
+    <!-- javascript for toggle menu -->
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
